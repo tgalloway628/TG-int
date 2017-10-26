@@ -1,0 +1,58 @@
+import java.util.Scanner;
+public class Main {
+ // Tyrese Galloway
+  
+  
+	public static void main(String[] args) {
+    // int gear;  // declaration
+    // int gear = 1 //
+    // gear = 5;  // assignment
+    
+     
+	  // Int
+	  // Short
+	  // Long
+	  // Double
+	  // Float
+	  // Char
+	  // Boolean
+	  // Byte
+		
+		demonstratePrintHello(); //call
+		demonstrateArgumentDivision();
+
+	}
+	public static void printHello( ) {
+		
+		Scanner keyboard = new Scanner(System.in);
+    String name1 = keyboard.nextLine(); 
+    System.out.println("Hello " + name1 );
+		System.out.println("Welcome to my Integration Project");
+		
+	}
+	
+	
+public static void demonstratePrintHello() {
+		String name = "Irma";
+		System.out.println("Hello, what is your name?: ");
+  // Single line comment
+
+	printHello();
+		System.out.println("Just for screwing up the semester, go to Hell " + name);
+		}
+
+public static void ArgumentDivision() {
+  int age = new Scanner(System.in).nextInt(); 
+   int young = (age/2)+7;
+   System.out.println("The youngest age of someone you can date is " + young);
+}
+//Format for a method:
+// modifier return-type methodName(parameter list){ method body}
+ public static void demonstrateArgumentDivision() {
+   System.out.println("How old are you?: ");
+   
+   ArgumentDivision();
+   System.out.println("That's some unnecessary information to know, right?");
+    }
+
+}
